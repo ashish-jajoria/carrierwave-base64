@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'carrierwave', '>= 3.0.0'
+  spec.add_dependency 'carrierwave', '>= 2.2.4'
   spec.add_dependency 'mime-types', '~> 3.0'
   spec.add_dependency 'marcel', '~> 1.0.0'
 
@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'carrierwave-mongoid'
   spec.add_development_dependency 'mongoid'
   spec.add_development_dependency 'pry'
-  spec.add_development_dependency 'rails', '~> 5'
+  spec.add_development_dependency 'rails', '~> 6'
   spec.add_development_dependency 'rake', '~> 12.3.3'
   spec.add_development_dependency 'rspec', '~> 2.14'
   spec.add_development_dependency 'rubocop'
